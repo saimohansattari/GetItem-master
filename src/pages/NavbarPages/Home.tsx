@@ -27,10 +27,9 @@ import {
   mobiles,
   toys,
 } from "../constant";
-import { useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 function Home() {
-  const navigate = useNavigate();
   return (
     <div>
       <MainDiv>
@@ -50,65 +49,13 @@ function Home() {
           </TextCard>
         </SubDiv>
 
+
+
         {/* Electronics Scroll section */}
         <ProductScrollDiv>
           <Scroll_1>
             {electronics.map((Item) => (
-              // <Link to="./Selectedproduct">
-
-              <ProductCard
-                key={Item.id}
-                onClick={() => navigate("./Selectedpage")}
-              >
-                <ProductImg src={Item.Proimg} alt="Grocery" />
-                <ProductText>
-                  <ProductName>{Item.ProName}</ProductName>
-                  <ProductWeight>𓍝&nbsp;{Item.ProWeight}kg</ProductWeight>
-                  <ProductPrice>₹&nbsp;{Item.ProPrice} /-</ProductPrice>
-                  <form className="rating">
-                    <label>
-                      <input type="radio" name="stars" value="1" />
-                      <span className="icon">★</span>
-                    </label>
-                    <label>
-                      <input type="radio" name="stars" value="2" />
-                      <span className="icon">★</span>
-                      <span className="icon">★</span>
-                    </label>
-                    <label>
-                      <input type="radio" name="stars" value="3" />
-                      <span className="icon">★</span>
-                      <span className="icon">★</span>
-                      <span className="icon">★</span>
-                    </label>
-                    <label>
-                      <input type="radio" name="stars" value="4" />
-                      <span className="icon">★</span>
-                      <span className="icon">★</span>
-                      <span className="icon">★</span>
-                      <span className="icon">★</span>
-                    </label>
-                    <label>
-                      <input type="radio" name="stars" value="5" />
-                      <span className="icon">★</span>
-                      <span className="icon">★</span>
-                      <span className="icon">★</span>
-                      <span className="icon">★</span>
-                      <span className="icon">★</span>
-                    </label>
-                  </form>
-                  <OfferText>Buy 3 get Extra 3% Disscount</OfferText>
-                </ProductText>
-              </ProductCard>
-              // </Link>
-            ))}
-          </Scroll_1>
-        </ProductScrollDiv>
-
-        {/* JentsWeat scroll section */}
-        <ProductScrollDiv onClick={() => navigate("./Selectedpage")}>
-          <Scroll_1>
-            {menswear.map((Item) => (
+              <Link id="text_Dec_none" to={`/SingleProduct/${Item.id}`}>
               <ProductCard key={Item.id}>
                 <ProductImg src={Item.Proimg} alt="Grocery" />
                 <ProductText>
@@ -150,6 +97,58 @@ function Home() {
                   <OfferText>Buy 3 get Extra 3% Disscount</OfferText>
                 </ProductText>
               </ProductCard>
+              </Link>
+            ))}
+          </Scroll_1>
+        </ProductScrollDiv>
+
+        {/* JentsWeat scroll section */}
+        <ProductScrollDiv >
+          <Scroll_1>
+            {menswear.map((Item) => (
+              <Link id="text_Dec_none" to={`/SingleProduct/${Item.id}`}>
+              <ProductCard key={Item.id}>
+                <ProductImg src={Item.Proimg} alt="Grocery" />
+                <ProductText>
+                  <ProductName>{Item.ProName}</ProductName>
+                  <ProductWeight>𓍝&nbsp;{Item.ProWeight}kg</ProductWeight>
+                  <ProductPrice>₹&nbsp;{Item.ProPrice} /-</ProductPrice>
+                  <form className="rating">
+                    <label>
+                      <input type="radio" name="stars" value="1" />
+                      <span className="icon">★</span>
+                    </label>
+                    <label>
+                      <input type="radio" name="stars" value="2" />
+                      <span className="icon">★</span>
+                      <span className="icon">★</span>
+                    </label>
+                    <label>
+                      <input type="radio" name="stars" value="3" />
+                      <span className="icon">★</span>
+                      <span className="icon">★</span>
+                      <span className="icon">★</span>
+                    </label>
+                    <label>
+                      <input type="radio" name="stars" value="4" />
+                      <span className="icon">★</span>
+                      <span className="icon">★</span>
+                      <span className="icon">★</span>
+                      <span className="icon">★</span>
+                    </label>
+                    <label>
+                      <input type="radio" name="stars" value="5" />
+                      <span className="icon">★</span>
+                      <span className="icon">★</span>
+                      <span className="icon">★</span>
+                      <span className="icon">★</span>
+                      <span className="icon">★</span>
+                    </label>
+                  </form>
+                  <OfferText>Buy 3 get Extra 3% Disscount</OfferText>
+                </ProductText>
+              </ProductCard>
+              </Link>
             ))}
           </Scroll_1>
         </ProductScrollDiv>
@@ -158,6 +157,8 @@ function Home() {
         <ProductScrollDiv>
           <Scroll_1>
             {grocery.map((Item) => (
+              <Link id="text_Dec_none" to={`/SingleProduct/${Item.id}`}>
+
               <ProductCard key={Item.id}>
                 <ProductImg src={Item.Proimg} alt="Grocery" />
                 <ProductText>
@@ -199,6 +200,7 @@ function Home() {
                   <OfferText>Buy 3 get Extra 3% Disscount</OfferText>
                 </ProductText>
               </ProductCard>
+              </Link>
             ))}
           </Scroll_1>
         </ProductScrollDiv>
@@ -207,6 +209,8 @@ function Home() {
         <ProductScrollDiv>
           <Scroll_1>
             {girlswear.map((Item) => (
+              <Link id="text_Dec_none" to={`/SingleProduct/${Item.id}`}>
+
               <ProductCard key={Item.id}>
                 <ProductImg src={Item.Proimg} alt="Grocery" />
                 <ProductText>
@@ -248,6 +252,7 @@ function Home() {
                   <OfferText>Buy 3 get Extra 3% Disscount</OfferText>
                 </ProductText>
               </ProductCard>
+              </Link>
             ))}
           </Scroll_1>
         </ProductScrollDiv>
@@ -256,6 +261,8 @@ function Home() {
         <ProductScrollDiv>
           <Scroll_1>
             {mobiles.map((Item) => (
+            <Link id="text_Dec_none" to={`/SingleProduct/${Item.id}`}>
+
               <ProductCard key={Item.id}>
                 <ProductImg src={Item.Proimg} alt="Grocery" />
                 <ProductText>
@@ -297,6 +304,7 @@ function Home() {
                   <OfferText>Buy 3 get Extra 3% Disscount</OfferText>
                 </ProductText>
               </ProductCard>
+              </Link>
             ))}
           </Scroll_1>
         </ProductScrollDiv>
@@ -305,6 +313,8 @@ function Home() {
         <ProductScrollDiv>
           <Scroll_1>
             {toys.map((Item) => (
+            <Link id="text_Dec_none" to={`/SingleProduct/${Item.id}`}>
+
               <ProductCard key={Item.id}>
                 <ProductImg src={Item.Proimg} alt="Grocery" />
                 <ProductText>
@@ -346,6 +356,7 @@ function Home() {
                   <OfferText>Buy 3 get Extra 3% Disscount</OfferText>
                 </ProductText>
               </ProductCard>
+              </Link>
             ))}
           </Scroll_1>
         </ProductScrollDiv>

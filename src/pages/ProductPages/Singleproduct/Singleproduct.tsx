@@ -91,7 +91,7 @@
 import { Key, useEffect, useState } from "react";
 import { StyledDiv1 } from "../../../components/components.styled";
 import { useParams } from "react-router-dom";
-import { grocery, electronics, mobiles, menswear, girlswear,kidswear } from "../../constant";
+import { grocery, electronics, mobiles, menswear, girlswear,kidswear, toys } from "../../constant";
 
 interface Product {
   [x: string]: Key | null | undefined;
@@ -106,7 +106,7 @@ interface Product {
 function SingleProduct() {
   const [product, setProduct] = useState<Product | null>(null);
   const { id } = useParams<{ id: string }>();
-  const allProducts = [...grocery, ...electronics, ...mobiles, ...menswear, ...girlswear, ...kidswear];
+  const allProducts = [...grocery, ...electronics, ...mobiles, ...menswear, ...girlswear, ...kidswear, ...toys];
 
   useEffect(() => {
     const foundProduct = allProducts.find((p) => p.id === id);

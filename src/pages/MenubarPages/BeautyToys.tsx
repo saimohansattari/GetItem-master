@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import { Div, ProductCard, StyledDiv1, ProductImg, ProductText, ProductName, ProductWeight, ProductPrice, OfferText } from '../../components/components.styled';
 import { toys } from '../constant';
 
@@ -9,6 +10,7 @@ function BeautyToys() {
     <Div>
     <StyledDiv1>
       {toys.map((Item) => (
+        <Link id='text_Dec_none' to={`/SingleProduct/${Item.id}`}>
         <ProductCard key={Item.id}>
         <ProductImg src={Item.Proimg} alt="Grocery" />
         <ProductText>
@@ -50,6 +52,7 @@ function BeautyToys() {
           <OfferText>Buy 3 get Extra 3% Disscount</OfferText>
         </ProductText>
       </ProductCard>
+      </Link>
       ))}
 
     </StyledDiv1>

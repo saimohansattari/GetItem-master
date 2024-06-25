@@ -11,8 +11,7 @@ import { UniqIed } from "./ProductPages/Singleproduct/UniquID";
 
 
 
-export const grocery =
-UniqIed([
+export const grocery =UniqIed([
     {
        
         Proimg: grocery1,
