@@ -51,9 +51,9 @@ function Electronics() {
     <Div>
       <StyledDiv1>
         {products.map((item) => (
-          <Link to={`/SingleProduct/${item.id}`}>
-            {" "}
-            <ProductCard key={item.id}>
+          <Link id="#text_Dec_none" to={`/SingleProduct/${item.id}`} key={item.id}>
+          
+            <ProductCard >
               <ProductImg src={item.image} alt="Product" />
               <ProductText>
                 <ProductName>{item.title}</ProductName>

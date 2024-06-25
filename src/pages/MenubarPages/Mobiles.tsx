@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import { Div, ProductCard, StyledDiv1, ProductImg, ProductText, ProductName, ProductWeight, ProductPrice, OfferText } from '../../components/components.styled';
 import { mobiles } from '../constant';
 
@@ -6,6 +7,7 @@ function Mobiles() {
     <Div>
     <StyledDiv1>
       {mobiles.map((Item) => (
+        <Link id='text_Dec_none' to={`/SingleProduct/${Item.id}`}>
         <ProductCard key={Item.id}>
         <ProductImg src={Item.Proimg} alt="Grocery" />
         <ProductText>
@@ -47,6 +49,7 @@ function Mobiles() {
           <OfferText>Buy 3 get Extra 3% Disscount</OfferText>
         </ProductText>
       </ProductCard>
+      </Link>
       ))}
 
     </StyledDiv1>

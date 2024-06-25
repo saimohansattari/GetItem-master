@@ -69,7 +69,7 @@ console.log(grocery);
 
 export const electronics = UniqIed([
     {
-        id:"1",
+       
         Proimg: Ele1,
         ProName:"Washing Machine",
         ProWeight: "10",
@@ -77,35 +77,35 @@ export const electronics = UniqIed([
     },
    
     {
-        id:"2",
+        
         Proimg: Ele2,
         ProName:"Smart Fridge",
         ProWeight: "19.5",
         ProPrice: "18000"
     },
     {
-        id:"3",
+        
         Proimg: Ele3,
         ProName:"Mens Trimmer",
         ProWeight: "0.5",
         ProPrice: "999"
     },
     {
-        id:"4",
+      
         Proimg: Ele4,
         ProName:"Branded Watches (2)",
         ProWeight: "3.2",
         ProPrice: "1199"
     },
     {
-        id:"5",
+        
         Proimg: Ele5,
         ProName:"Bluetooth Speaker",
         ProWeight: "4",
         ProPrice: "599"
     },
     {
-        id:"6",
+       
         Proimg: Ele6,
         ProName:"Air Pods",
         ProWeight: "0.2",
@@ -114,7 +114,7 @@ export const electronics = UniqIed([
 ]);
 
 
-export const mobiles = [
+export const mobiles = UniqIed([
     {
         id:"1",
         Proimg: Mobile1,
@@ -157,199 +157,190 @@ export const mobiles = [
         ProWeight: "2.2",
         ProPrice: "12900"
     },
-];
+]);
 
-export const menswear = [
+export const menswear = UniqIed([
     {
-        id:"1",
+        
         Proimg: Mens1,
         ProName:"Air Pods",
         ProWeight: "2.2",
         ProPrice: "12900"
     },
     {
-        id:"2",
         Proimg: Mens2,
         ProName:"Air Pods",
         ProWeight: "2.2",
         ProPrice: "12900"
     },
     {
-        id:"3",
         Proimg: Mens3,
         ProName:"Air Pods",
         ProWeight: "2.2",
         ProPrice: "12900"
     },
     {
-        id:"4",
         Proimg: Mens4,
         ProName:"Air Pods",
         ProWeight: "2.2",
         ProPrice: "12900"
     },
     {
-        id:"5",
         Proimg: Mens5,
         ProName:"Air Pods",
         ProWeight: "2.2",
         ProPrice: "12900"
     },
     {
-        id:"6",
         Proimg: Mens6,
         ProName:"Air Pods",
         ProWeight: "2.2",
         ProPrice: "12900"
     },
-];
+]);
 
 
-export const girlswear = [
+export const girlswear = UniqIed([
     {
-        id:"1",
+        
         Proimg: Girl1,
         ProName:"Air Pods",
         ProWeight: "2.2",
         ProPrice: "12900"
     },
     {
-        id:"2",
+      
         Proimg: Girl2,
         ProName:"Air Pods",
         ProWeight: "2.2",
         ProPrice: "12900"
     },
     {
-        id:"3",
+       
         Proimg: Girl3,
         ProName:"Air Pods",
         ProWeight: "2.2",
         ProPrice: "12900"
     },
     {
-        id:"4",
+       
         Proimg: Girl4,
         ProName:"Air Pods",
         ProWeight: "2.2",
         ProPrice: "12900"
     },
     {
-        id:"5",
+        
         Proimg: Girl5,
         ProName:"Air Pods",
         ProWeight: "2.2",
         ProPrice: "12900"
     },
     {
-        id:"6",
+      
         Proimg: Girl6,
         ProName:"Air Pods",
         ProWeight: "2.2",
         ProPrice: "12900"
     },
     {
-        id:"7",
+       
         Proimg: Girl4,
         ProName:"Air Pods",
         ProWeight: "2.2",
         ProPrice: "12900"
     },
-];
+]);
 
 
 
-export const kidswear = [
+export const kidswear = UniqIed([
     {
-        id:"1",
+        
         Proimg: Kid1,
         ProName:"Air Pods",
         ProWeight: "2.2",
         ProPrice: "12900"
     },
     {
-        id:"2",
+      
         Proimg: Kid2,
         ProName:"Air Pods",
         ProWeight: "2.2",
         ProPrice: "12900"
     },
     {
-        id:"3",
+        
         Proimg: Kid3,
         ProName:"Air Pods",
         ProWeight: "2.2",
         ProPrice: "12900"
     },
     {
-        id:"4",
+       
         Proimg: Kid4,
         ProName:"Air Pods",
         ProWeight: "2.2",
         ProPrice: "12900"
     },
     {
-        id:"5",
+      
         Proimg: Kid5,
         ProName:"Air Pods",
         ProWeight: "2.2",
         ProPrice: "12900"
     },
     {
-        id:"6",
+    
         Proimg: Kid6,
         ProName:"Air Pods",
         ProWeight: "2.2",
         ProPrice: "12900"
     },
    
-];
+]);
 
 
 
 
-export const toys = [
+export const toys = UniqIed([
     {
-        id:"1",
+      
         Proimg: Toy1,
         ProName:"Air Pods",
         ProWeight: "2.2",
         ProPrice: "12900"
     },
     {
-        id:"2",
+       
         Proimg: Toy2,
         ProName:"Air Pods",
         ProWeight: "2.2",
         ProPrice: "12900"
     },
     {
-        id:"3",
         Proimg: Toy3,
         ProName:"Air Pods",
         ProWeight: "2.2",
         ProPrice: "12900"
     },
     {
-        id:"4",
         Proimg: Toy4,
         ProName:"Air Pods",
         ProWeight: "2.2",
         ProPrice: "12900"
     },
     {
-        id:"5",
         Proimg: Toy5,
         ProName:"Air Pods",
         ProWeight: "2.2",
         ProPrice: "12900"
     },
     {
-        id:"6",
         Proimg: Toy6,
         ProName:"Air Pods",
         ProWeight: "2.2",
         ProPrice: "12900"
     },
    
-];
+]);

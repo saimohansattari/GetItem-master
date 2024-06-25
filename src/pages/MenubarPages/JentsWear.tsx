@@ -1,5 +1,6 @@
 import { Div, ProductCard, StyledDiv1, ProductImg, ProductText, ProductName, ProductWeight, ProductPrice, OfferText } from '../../components/components.styled';
 import { menswear } from '../constant';
+import { Link } from 'react-router-dom';
 
 
 
@@ -9,7 +10,8 @@ function JentsWear() {
     <Div>
       <StyledDiv1>
         {menswear.map((Item) => (
-          <ProductCard key={Item.id}>
+          <Link id='text_Dec_none' to={`/SingleProduct/${Item.id}`} key={Item.id}>
+          <ProductCard >
           <ProductImg src={Item.Proimg} alt="Grocery" />
           <ProductText>
             <ProductName>{Item.ProName}</ProductName>
@@ -50,6 +52,7 @@ function JentsWear() {
             <OfferText>Buy 3 get Extra 3% Disscount</OfferText>
           </ProductText>
         </ProductCard>
+        </Link>
         ))}
 
       </StyledDiv1>
