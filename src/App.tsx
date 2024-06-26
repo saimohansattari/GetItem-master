@@ -27,11 +27,13 @@ import {
 function App() {
   return (
     <>
-      <Router>
+      {/* <Router>
         <Navbar />
-      </Router>
+      </Router> */}
 
       <Router>
+        <Navbar />
+
         <MenuNav />
         <Routes>
           <Route path="/SignIn" element={<SignIn />} />
@@ -54,7 +56,6 @@ function App() {
           <Route path="/BeautyToys" element={<BeautyToys />} />
 
           <Route path="/SingleProduct/:id" element={<Singleproduct />} />
-          {/* <Route path="/SingleProduct" element={<Singleproduct />} /> */}
         </Routes>
       </Router>
     </>
