@@ -15,7 +15,6 @@ export const Search = styled.input`
   width: 25vw;
   height: 40px;
   padding: 5px 10px 5px 10px;
-  /* height: 36vh; */
   border: none;
   border-radius: 10px;
 `;
@@ -48,8 +47,8 @@ export const StyledMenuNav = styled.nav`
   margin-top: 100px;
   width: 100vw;
   position: fixed;
-  display: flex;
-  height: 30px;
+  display: flex; 
+  /* height: 30px; */
   flex-wrap: wrap;
   padding: 10px 0px 10px 0px;
   justify-content: space-around;
