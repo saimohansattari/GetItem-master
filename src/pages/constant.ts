@@ -117,44 +117,44 @@ export const mobiles = UniqIed([
     {
         id:"1",
         Proimg: Mobile1,
-        ProName:"Air Pods",
+        ProName:"Iphone 14Pro",
         ProWeight: "1.2",
         ProPrice: "12900"
     },
     {
         id:"2",
         Proimg: Mobile2,
-        ProName:"Air Pods",
+        ProName:"Samsung A20+ Ultra",
         ProWeight: "1.2",
         ProPrice: "19999"
     },
     {
         id:"3",
         Proimg: Mobile3,
-        ProName:"Air Pods",
+        ProName:"Vivo A13",
         ProWeight: "1.0",
         ProPrice: "14999"
     },
     {
         id:"4",
         Proimg: Mobile4,
-        ProName:"Air Pods",
+        ProName:"Mobile Cover Combo",
         ProWeight: "2.0",
         ProPrice: "18500"
     },
     {
         id:"5",
         Proimg: Mobile5,
-        ProName:"Air Pods",
+        ProName:"Oppo Reno",
         ProWeight: "1.2",
         ProPrice: "29000"
     },
     {
         id:"6",
         Proimg: Mobile6,
-        ProName:"Air Pods",
+        ProName:"Nokia Legend",
         ProWeight: "2.2",
-        ProPrice: "12900"
+        ProPrice: "1200"
     },
 ]);
 

@@ -33,13 +33,12 @@ function App() {
 
       <Router>
         <Navbar />
-
+        
         <MenuNav />
         <Routes>
           <Route path="/SignIn" element={<SignIn />} />
           <Route path="/Signup" element={<Signup />} />
-
-          <Route path="/UserDashboard" element={<PrivateRoute />}>
+            <Route path="/UserDashboard" element={<PrivateRoute />}>
             <Route path="/UserDashboard" element={<UserDashboard />} />
           </Route>
 
@@ -47,15 +46,14 @@ function App() {
           <Route path="/Cart" element={<Cart />} />
 
           <Route path="/" element={<Home />} />
-          <Route path="/Grocery" element={<Grocery />} />
-          <Route path="/Mobiles" element={<Mobiles />} />
-          <Route path="/JentsWear" element={<JentsWear />} />
-          <Route path="/GirlsWear" element={<GirlsWear />} />
-          <Route path="/KidsWear" element={<KidsWear />} />
-          <Route path="/Electronics" element={<Electronics />} />
-          <Route path="/BeautyToys" element={<BeautyToys />} />
-
-          <Route path="/SingleProduct/:id" element={<Singleproduct />} />
+          <Route path="/Grocery" element={<Grocery/>} />
+          <Route path="/Mobiles" element={<Mobiles/>} />
+          <Route path="/JentsWear" element={<JentsWear/>} />
+          <Route path="/GirlsWear" element={<GirlsWear/>} />
+          <Route path="/KidsWear" element={<KidsWear/>} />
+          <Route path="/Electronics" element={<Electronics/>} />
+          <Route path="/BeautyToys" element={<BeautyToys/>} />
+          <Route path="/SingleProduct/:id" element={<Singleproduct/>} />
         </Routes>
       </Router>
     </>
@@ -63,3 +61,6 @@ function App() {
 }
 
 export default App;
+
+
+

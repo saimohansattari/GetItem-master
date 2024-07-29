@@ -15,8 +15,7 @@ function Navbar() {
               <SearchBtn>Search</SearchBtn>
           </div>
 
-          <div>
-            
+          <div>           
            <Link to='/UserDashboard'><UserIcon src={usericon} /></Link>
           </div>
           

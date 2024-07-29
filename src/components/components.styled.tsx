@@ -225,6 +225,9 @@ export const SubDiv = styled.div`
 export const ImgCard = styled.div`
   height: fit-content;
   background-color: none;
+
+
+  
 `;
 export const TextCard = styled.div`
   background-color: none;
