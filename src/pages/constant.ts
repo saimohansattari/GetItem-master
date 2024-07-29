@@ -162,39 +162,39 @@ export const menswear = UniqIed([
     {
         
         Proimg: Mens1,
-        ProName:"Air Pods",
+        ProName:"Men's Suit",
         ProWeight: "2.2",
-        ProPrice: "12900"
+        ProPrice: "4599"
     },
     {
         Proimg: Mens2,
-        ProName:"Air Pods",
+        ProName:"Red Shirt",
         ProWeight: "2.2",
-        ProPrice: "12900"
+        ProPrice: "799"
     },
     {
         Proimg: Mens3,
-        ProName:"Air Pods",
+        ProName:"Party Wear",
         ProWeight: "2.2",
-        ProPrice: "12900"
+        ProPrice: "1599"
     },
     {
         Proimg: Mens4,
-        ProName:"Air Pods",
+        ProName:"Mens Jeans Combo",
         ProWeight: "2.2",
-        ProPrice: "12900"
+        ProPrice: "3999"
     },
     {
         Proimg: Mens5,
-        ProName:"Air Pods",
+        ProName:"Formal Shoes",
         ProWeight: "2.2",
-        ProPrice: "12900"
+        ProPrice: "4500"
     },
     {
         Proimg: Mens6,
-        ProName:"Air Pods",
+        ProName:"Mens Gray Track",
         ProWeight: "2.2",
-        ProPrice: "12900"
+        ProPrice: "599"
     },
 ]);
 
@@ -203,51 +203,51 @@ export const girlswear = UniqIed([
     {
         
         Proimg: Girl1,
-        ProName:"Air Pods",
+        ProName:"Kanchi Saree",
         ProWeight: "2.2",
-        ProPrice: "12900"
+        ProPrice: "1900"
     },
     {
       
         Proimg: Girl2,
-        ProName:"Air Pods",
+        ProName:"Tourist Wear",
         ProWeight: "2.2",
-        ProPrice: "12900"
+        ProPrice: "1500"
     },
     {
        
         Proimg: Girl3,
-        ProName:"Air Pods",
+        ProName:"Sandles",
         ProWeight: "2.2",
-        ProPrice: "12900"
+        ProPrice: "299"
     },
     {
        
         Proimg: Girl4,
-        ProName:"Air Pods",
+        ProName:"Nike Cary Bag",
         ProWeight: "2.2",
-        ProPrice: "12900"
+        ProPrice: "1499"
     },
     {
         
         Proimg: Girl5,
-        ProName:"Air Pods",
+        ProName:"Tonned Jean with Combo",
         ProWeight: "2.2",
-        ProPrice: "12900"
+        ProPrice: "9990"
     },
     {
       
         Proimg: Girl6,
-        ProName:"Air Pods",
+        ProName:"Party Bags",
         ProWeight: "2.2",
-        ProPrice: "12900"
+        ProPrice: "599"
     },
     {
        
         Proimg: Girl4,
-        ProName:"Air Pods",
+        ProName:"Nike hand Bag",
         ProWeight: "2.2",
-        ProPrice: "12900"
+        ProPrice: "1200"
     },
 ]);
 
